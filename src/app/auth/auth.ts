@@ -8,8 +8,8 @@ import { LogDirective } from '../log.directive';
   selector: 'app-auth',
   standalone: true,
   imports: [FormsModule],
-  templateUrl: './auth.component.html',
-  styleUrl: './auth.component.css',
+  templateUrl: './auth.html',
+  styleUrl: './auth.css',
   hostDirectives: [LogDirective],
 })
 export class AuthComponent {
